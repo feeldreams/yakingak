@@ -33,7 +33,7 @@ function mketik3() {if(ac<vketikb.length){kalimatb.innerHTML += vketikb.charAt(a
     kalimatb.innerHTML="";
   }
 
-  function otomatis3() {befanimkata3();setTimeout(animkata3,700);fthilang();ftganti=4;setTimeout(ftmuncul,300);} 
+  function otomatis3() {befanimkata3();setTimeout(animkata3,700);fthilang();ftganti=1;setTimeout(ftmuncul,300);} 
   function befanimkata3(){kalimat.style="";kalimatb.style="";kalimat.style="opacity:0";kalimatb.style="opacity:0";} 
   function animkata3() {kalimat.innerHTML = kalimat3.innerHTML + balasan;kalimatb.innerHTML = kalimatb3.innerHTML;kalimat.style="opacity:1;font-size:18px;transition:none";kalimatb.style="opacity:1;font-size:17px;font-weight:400;transition:none";}
   
