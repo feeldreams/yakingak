@@ -17,7 +17,7 @@ function fmketik3(){
   wallpaper.style="transform: scale(1.5);";
   fthilang();ftganti=2;setTimeout(ftmuncul,200);
 }
-function mketik3() {if(ac<vketikb.length){kalimatb.innerHTML += vketikb.charAt(ac);ac++;setTimeout(mketik3,43);}}
+function mketik3() {if(ac<vketikb.length){kalimatb.innerHTML += vketikb.charAt(ac);ac++;setTimeout(mketik3,43);}if(ac==vketikb.length){setTimeout(tombol,700)}}
 
   function dilanjut(){wallpaper.style="transform: scale(1);";setTimeout(otomatis2,300);fthilang();ftganti=10;setTimeout(ftmuncul,300);Tombol.style="opacity:0;transform: scale(.1);";jikatom=1;setTimeout(tombol,1000);}
   
