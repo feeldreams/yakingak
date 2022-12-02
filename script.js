@@ -1,25 +1,25 @@
 var aa=0,vketik;
   function fmketik1(){
-  wallpaper.style="transform: scale(1.5);";
+  wallpaper.style="transform: scale(1);";
 }
 function mketik1() {if(aa<vketik.length){kalimat.innerHTML += vketik.charAt(aa);aa++;setTimeout(mketik1,45);}}
 
 var ab=0,vketika;
 function fmketik2(){
   kalimat.innerHTML="";
-  wallpaper.style="transform: scale(1);";
+  wallpaper.style="transform: scale(1.5);";
   fthilang();ftganti=1;setTimeout(ftmuncul,200);
 }
 function mketik2() {if(ab<vketika.length){kalimata.innerHTML += vketika.charAt(ab);ab++;setTimeout(mketik2,44);}}
   
   var ac=0,vketikb;
 function fmketik3(){
-  wallpaper.style="transform: scale(1.5);";
+  wallpaper.style="transform: scale(1);";
   fthilang();ftganti=2;setTimeout(ftmuncul,200);
 }
 function mketik3() {if(ac<vketikb.length){kalimatb.innerHTML += vketikb.charAt(ac);ac++;setTimeout(mketik3,43);}if(ac==vketikb.length){setTimeout(tombol,700)}}
 
-  function dilanjut(){wallpaper.style="transform: scale(1);";setTimeout(otomatis2,300);fthilang();ftganti=10;setTimeout(ftmuncul,300);Tombol.style="opacity:0;transform: scale(.1);";jikatom=1;setTimeout(tombol,1000);}
+  function dilanjut(){wallpaper.style="transform: scale(1.5);";setTimeout(otomatis2,300);fthilang();ftganti=10;setTimeout(ftmuncul,300);Tombol.style="opacity:0;transform: scale(.1);";jikatom=1;setTimeout(tombol,1000);}
   
   function otomatis() {befanimkata();setTimeout(animkata,400);} 
   function befanimkata(){kalimat.style="transform:scale(.3);";kalimatb.style="transform:scale(.3);";kalimatc.style="transform:scale(.3);";} 
