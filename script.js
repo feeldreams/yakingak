@@ -2,7 +2,7 @@ var aa=0,vketik;
   function fmketik1(){
   wallpaper.style="transform: scale(1);";
 }
-function mketik1() {if(aa<vketik.length){kalimat.innerHTML += vketik.charAt(aa);aa++;setTimeout(mketik1,45);}}
+function mketik1() {if(aa<vketik.length){kalimat.innerHTML += vketik.charAt(aa);aa++;setTimeout(mketik1,50);}}
 
 var ab=0,vketika;
 function fmketik2(){
