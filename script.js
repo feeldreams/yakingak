@@ -15,7 +15,6 @@ function mketik2() {if(ab<vketika.length){kalimata.innerHTML += vketika.charAt(a
   var ac=0,vketikb;
 function fmketik3(){
   wallpaper.style="transform: scale(1);";
-  fthilang();ftganti=2;setTimeout(ftmuncul,200);
 }
 function mketik3() {if(ac<vketikb.length){kalimatb.innerHTML += vketikb.charAt(ac);ac++;setTimeout(mketik3,43);}if(ac==vketikb.length){setTimeout(tombol,700)}}
 
